@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e6f3ff;
+    line-height: 1.65;
+    padding-bottom: 1000px;
+}
+
+.container-satu {
+    width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    border: 2px solid #ccc;
+}
+
+.kolon-utama img {
+    width: 100%;
+    max-width: 400px;
+    height: 200px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+}
+
+.sidebar-satu {
+    flex: 0 0 200px;
+    margin-right: 20px;
+    background-color: #f0f8ff;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.sidebar-dua {
+    flex: 0 0 200px;
+    background-color: #fff8f0;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
