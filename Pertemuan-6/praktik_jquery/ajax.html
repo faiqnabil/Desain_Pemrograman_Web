@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Tutorial AJAX Sederhana dengan Load()</title>
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            // Ketika tombol diklik
+            $("button").click(function() {
+                // Muat konten dari file eksternal dan masukkan ke dalam div #box
+                $("#box").load("/dasarWeb/praktik_jquery/test-content.html");
+            });
+        });
+    </script>
+</head>
+<body>
+    <h1>Tutorial AJAX Sederhana</h1>
+    
+    <p id="hint">Tutorial Fungsi Load()</p>
+    <p><img src="img/gambar1.jpg"></p>
+
+    <div id="box">
+        <h2>Klik tombol dibawah untuk menampilkan konten</h2>
+    </div>
+    
+    <button type="button">Klik Saya!</button>
+</body>
+</html>
